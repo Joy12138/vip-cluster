@@ -1,0 +1,233 @@
+2018-05-18 00:10:31.580 [masterPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - masterPool - Thread starvation or clock leap detected (housekeeper delta=1h23s518ms). 
+2018-05-18 01:31:24.735 [masterPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - masterPool - Thread starvation or clock leap detected (housekeeper delta=1h22s952ms). 
+2018-05-18 02:53:18.374 [masterPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - masterPool - Thread starvation or clock leap detected (housekeeper delta=1h23s450ms). 
+2018-05-18 03:15:18.683 [masterPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - masterPool - Retrograde clock change detected (housekeeper delta=29s400ms), soft-evicting connections from pool. 
+2018-05-18 04:33:12.281 [masterPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - masterPool - Thread starvation or clock leap detected (housekeeper delta=1h23s416ms). 
+2018-05-18 06:14:35.556 [masterPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - masterPool - Thread starvation or clock leap detected (housekeeper delta=1h22s847ms). 
+2018-05-18 07:56:59.195 [masterPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - masterPool - Thread starvation or clock leap detected (housekeeper delta=1h23s217ms). 
+2018-05-18 09:26:29.214 [masterPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - masterPool - Retrograde clock change detected (housekeeper delta=29s129ms), soft-evicting connections from pool. 
+2018-05-18 13:31:23.583 [masterPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - masterPool - Thread starvation or clock leap detected (housekeeper delta=1h23s348ms). 
+2018-05-18 14:32:02.037 [masterPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - masterPool - Thread starvation or clock leap detected (housekeeper delta=5m7s933ms). 
+2018-05-18 15:10:45.185 [main] INFO  com.lz.vip.Application - Starting Application on Evan.local with PID 18909 (/Users/evan/Documents/vip-cluster/membercard-java-springboot-master/target/classes started by evan in /Users/evan/Documents/vip-cluster) 
+2018-05-18 15:10:45.185 [main] INFO  com.lz.vip.Application - The following profiles are active: dev 
+2018-05-18 15:10:45.233 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@710f4dc7: startup date [Fri May 18 15:10:45 CST 2018]; root of context hierarchy 
+2018-05-18 15:10:45.792 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-jdbc.xml] 
+2018-05-18 15:10:46.226 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+2018-05-18 15:10:46.654 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+2018-05-18 15:10:46.663 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2018-05-18 15:10:46.664 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16 
+2018-05-18 15:10:46.727 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2018-05-18 15:10:46.728 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1495 ms 
+2018-05-18 15:10:46.824 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+2018-05-18 15:10:46.828 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+2018-05-18 15:10:46.828 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+2018-05-18 15:10:46.829 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+2018-05-18 15:10:46.829 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+2018-05-18 15:10:46.864 [main] WARN  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public void com.lz.vip.service.MemberCardService.setAlipayClient() 
+2018-05-18 15:10:46.875 [main] WARN  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public void com.lz.vip.service.ActivityService.setAlipayClient() 
+2018-05-18 15:10:46.880 [main] WARN  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public void com.lz.vip.service.ShopService.setAlipayClient() 
+2018-05-18 15:10:46.883 [main] WARN  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public void com.lz.vip.service.PayService.setAlipayClient() 
+2018-05-18 15:10:46.893 [main] WARN  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public void com.lz.vip.service.AuthService.setAlipayClient() 
+2018-05-18 15:10:47.049 [main] INFO  com.zaxxer.hikari.HikariDataSource - masterPool - Started. 
+2018-05-18 15:10:47.702 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@710f4dc7: startup date [Fri May 18 15:10:45 CST 2018]; root of context hierarchy 
+2018-05-18 15:10:47.752 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/oc_userinfo.html]}" onto public java.lang.String com.lz.vip.controller.OpenCardController.oc_userInfo(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model) throws java.lang.Exception 
+2018-05-18 15:10:47.753 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/oc_opencard.html]}" onto public java.lang.String com.lz.vip.controller.OpenCardController.oc_openCard(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model) throws java.lang.Exception 
+2018-05-18 15:10:47.755 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+2018-05-18 15:10:47.756 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+2018-05-18 15:10:47.790 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-05-18 15:10:47.790 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-05-18 15:10:47.819 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-05-18 15:10:47.953 [main] INFO  o.s.w.s.v.f.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration 
+2018-05-18 15:10:48.114 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+2018-05-18 15:10:48.114 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'masterConfig' has been autodetected for JMX exposure 
+2018-05-18 15:10:48.114 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'masterSource' has been autodetected for JMX exposure 
+2018-05-18 15:10:48.119 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'masterSource': registering with JMX server as MBean [com.zaxxer.hikari:name=masterSource,type=HikariDataSource] 
+2018-05-18 15:10:48.119 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'masterConfig': registering with JMX server as MBean [com.zaxxer.hikari:name=masterConfig,type=HikariConfig] 
+2018-05-18 15:10:48.151 [main] ERROR o.a.coyote.http11.Http11NioProtocol - Failed to start end point associated with ProtocolHandler ["http-nio-8080"] 
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:990)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:635)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.lz.vip.Application.main(Application.java:45)
+2018-05-18 15:10:48.152 [main] ERROR o.a.catalina.core.StandardService - Failed to start connector [Connector[HTTP/1.1-8080]] 
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.lz.vip.Application.main(Application.java:45)
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1029)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:990)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:635)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022)
+	... 14 common frames omitted
+2018-05-18 15:10:48.158 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat] 
+2018-05-18 15:10:48.168 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled. 
+2018-05-18 15:10:48.172 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+ 
+2018-05-18 15:10:48.173 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@710f4dc7: startup date [Fri May 18 15:10:45 CST 2018]; root of context hierarchy 
+2018-05-18 15:10:48.175 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
+2018-05-18 15:10:48.175 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans 
+2018-05-18 15:10:48.177 [main] INFO  com.zaxxer.hikari.pool.HikariPool - masterPool - Close initiated... 
+2018-05-18 15:10:48.179 [main] INFO  com.zaxxer.hikari.pool.HikariPool - masterPool - Closed. 
+2018-05-18 15:11:32.766 [Thread-12] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7cbc3762: startup date [Wed May 09 18:49:36 CST 2018]; root of context hierarchy 
+2018-05-18 15:11:32.966 [Thread-12] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
+2018-05-18 15:11:32.968 [Thread-12] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans 
+2018-05-18 15:11:33.050 [Thread-12] INFO  com.zaxxer.hikari.pool.HikariPool - masterPool - Close initiated... 
+2018-05-18 15:11:33.059 [Thread-12] INFO  com.zaxxer.hikari.pool.HikariPool - masterPool - Closed. 
+2018-05-18 15:11:43.388 [main] INFO  com.lz.vip.Application - Starting Application on Evan.local with PID 19062 (/Users/evan/Documents/vip-cluster/membercard-java-springboot-master/target/classes started by evan in /Users/evan/Documents/vip-cluster) 
+2018-05-18 15:11:43.389 [main] INFO  com.lz.vip.Application - The following profiles are active: dev 
+2018-05-18 15:11:43.424 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@710f4dc7: startup date [Fri May 18 15:11:43 CST 2018]; root of context hierarchy 
+2018-05-18 15:11:43.890 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-jdbc.xml] 
+2018-05-18 15:11:44.376 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+2018-05-18 15:11:44.787 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+2018-05-18 15:11:44.795 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2018-05-18 15:11:44.796 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16 
+2018-05-18 15:11:44.851 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2018-05-18 15:11:44.851 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1427 ms 
+2018-05-18 15:11:44.949 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+2018-05-18 15:11:44.952 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+2018-05-18 15:11:44.953 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+2018-05-18 15:11:44.953 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+2018-05-18 15:11:44.953 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+2018-05-18 15:11:44.980 [main] WARN  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public void com.lz.vip.service.MemberCardService.setAlipayClient() 
+2018-05-18 15:11:44.986 [main] WARN  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public void com.lz.vip.service.ActivityService.setAlipayClient() 
+2018-05-18 15:11:44.989 [main] WARN  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public void com.lz.vip.service.ShopService.setAlipayClient() 
+2018-05-18 15:11:44.991 [main] WARN  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public void com.lz.vip.service.PayService.setAlipayClient() 
+2018-05-18 15:11:44.998 [main] WARN  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public void com.lz.vip.service.AuthService.setAlipayClient() 
+2018-05-18 15:11:45.146 [main] INFO  com.zaxxer.hikari.HikariDataSource - masterPool - Started. 
+2018-05-18 15:11:45.763 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@710f4dc7: startup date [Fri May 18 15:11:43 CST 2018]; root of context hierarchy 
+2018-05-18 15:11:45.806 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/oc_userinfo.html]}" onto public java.lang.String com.lz.vip.controller.OpenCardController.oc_userInfo(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model) throws java.lang.Exception 
+2018-05-18 15:11:45.806 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/oc_opencard.html]}" onto public java.lang.String com.lz.vip.controller.OpenCardController.oc_openCard(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model) throws java.lang.Exception 
+2018-05-18 15:11:45.809 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+2018-05-18 15:11:45.809 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+2018-05-18 15:11:45.837 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-05-18 15:11:45.837 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-05-18 15:11:45.863 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-05-18 15:11:45.981 [main] INFO  o.s.w.s.v.f.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration 
+2018-05-18 15:11:46.136 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+2018-05-18 15:11:46.137 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'masterConfig' has been autodetected for JMX exposure 
+2018-05-18 15:11:46.137 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'masterSource' has been autodetected for JMX exposure 
+2018-05-18 15:11:46.141 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'masterSource': registering with JMX server as MBean [com.zaxxer.hikari:name=masterSource,type=HikariDataSource] 
+2018-05-18 15:11:46.142 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'masterConfig': registering with JMX server as MBean [com.zaxxer.hikari:name=masterConfig,type=HikariConfig] 
+2018-05-18 15:11:46.189 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http) 
+2018-05-18 15:11:46.194 [main] INFO  com.lz.vip.Application - Started Application in 3.201 seconds (JVM running for 3.874) 
+2018-05-18 15:13:01.596 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet' 
+2018-05-18 15:13:01.596 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started 
+2018-05-18 15:13:01.612 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms 
+2018-05-18 15:14:38.962 [Thread-10] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@710f4dc7: startup date [Fri May 18 15:11:43 CST 2018]; root of context hierarchy 
+2018-05-18 15:14:38.970 [Thread-10] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
+2018-05-18 15:14:38.970 [Thread-10] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans 
+2018-05-18 15:14:38.973 [Thread-10] INFO  com.zaxxer.hikari.pool.HikariPool - masterPool - Close initiated... 
+2018-05-18 15:14:38.975 [Thread-10] INFO  com.zaxxer.hikari.pool.HikariPool - masterPool - Closed. 
+2018-05-18 15:17:10.299 [main] INFO  com.lz.vip.Application - Starting Application on Evan.local with PID 19462 (/Users/evan/Documents/vip-cluster/membercard-java-springboot-master/target/classes started by evan in /Users/evan/Documents/vip-cluster) 
+2018-05-18 15:17:10.300 [main] INFO  com.lz.vip.Application - The following profiles are active: dev 
+2018-05-18 15:17:10.364 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7cbc3762: startup date [Fri May 18 15:17:10 CST 2018]; root of context hierarchy 
+2018-05-18 15:17:10.931 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-jdbc.xml] 
+2018-05-18 15:17:11.332 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+2018-05-18 15:17:11.789 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+2018-05-18 15:17:11.799 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2018-05-18 15:17:11.800 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16 
+2018-05-18 15:17:11.881 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2018-05-18 15:17:11.881 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1517 ms 
+2018-05-18 15:17:12.002 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+2018-05-18 15:17:12.007 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+2018-05-18 15:17:12.007 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+2018-05-18 15:17:12.007 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+2018-05-18 15:17:12.008 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+2018-05-18 15:17:12.047 [main] WARN  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public void com.lz.vip.service.MemberCardService.setAlipayClient() 
+2018-05-18 15:17:12.057 [main] WARN  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public void com.lz.vip.service.ActivityService.setAlipayClient() 
+2018-05-18 15:17:12.059 [main] WARN  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public void com.lz.vip.service.ShopService.setAlipayClient() 
+2018-05-18 15:17:12.062 [main] WARN  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public void com.lz.vip.service.PayService.setAlipayClient() 
+2018-05-18 15:17:12.070 [main] WARN  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public void com.lz.vip.service.AuthService.setAlipayClient() 
+2018-05-18 15:17:12.225 [main] INFO  com.zaxxer.hikari.HikariDataSource - masterPool - Started. 
+2018-05-18 15:17:12.632 [main] WARN  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation is not supported on static fields: private static java.lang.String com.lz.vip.utils.JooqEnvironment.pName 
+2018-05-18 15:17:12.633 [main] WARN  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation is not supported on static fields: private static java.lang.String com.lz.vip.utils.JooqEnvironment.sourceName 
+2018-05-18 15:17:12.633 [main] WARN  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation is not supported on static fields: private static java.lang.String com.lz.vip.utils.JooqEnvironment.url 
+2018-05-18 15:17:12.633 [main] WARN  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation is not supported on static fields: private static java.lang.String com.lz.vip.utils.JooqEnvironment.username 
+2018-05-18 15:17:12.633 [main] WARN  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation is not supported on static fields: private static java.lang.String com.lz.vip.utils.JooqEnvironment.password 
+2018-05-18 15:17:12.897 [main] INFO  org.redisson.Version - Redisson 3.5.7 
+2018-05-18 15:17:13.128 [redisson-netty-1-7] INFO  o.r.c.pool.MasterConnectionPool - 10 connections initialized for /127.0.0.1:6379 
+2018-05-18 15:17:13.128 [redisson-netty-1-8] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for /127.0.0.1:6379 
+2018-05-18 15:17:13.145 [main] INFO  org.redisson.Version - Redisson 3.5.7 
+2018-05-18 15:17:13.194 [redisson-netty-4-2] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for /127.0.0.1:6379 
+2018-05-18 15:17:13.194 [redisson-netty-4-11] INFO  o.r.c.pool.MasterConnectionPool - 10 connections initialized for /127.0.0.1:6379 
+2018-05-18 15:17:13.453 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7cbc3762: startup date [Fri May 18 15:17:10 CST 2018]; root of context hierarchy 
+2018-05-18 15:17:13.515 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/oc_userinfo.html]}" onto public java.lang.String com.lz.vip.controller.OpenCardController.oc_userInfo(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model) throws java.lang.Exception 
+2018-05-18 15:17:13.516 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/oc_opencard.html]}" onto public java.lang.String com.lz.vip.controller.OpenCardController.oc_openCard(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model) throws java.lang.Exception 
+2018-05-18 15:17:13.517 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/init],produces=[application/json]}" onto public final com.lz.vip.utils.JSONResult com.lz.vip.controller.UserController.saveFbFriends(java.lang.String) 
+2018-05-18 15:17:13.520 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+2018-05-18 15:17:13.520 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+2018-05-18 15:17:13.555 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-05-18 15:17:13.555 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-05-18 15:17:13.596 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-05-18 15:17:13.796 [main] INFO  o.s.w.s.v.f.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration 
+2018-05-18 15:17:14.088 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+2018-05-18 15:17:14.089 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'masterConfig' has been autodetected for JMX exposure 
+2018-05-18 15:17:14.089 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'masterSource' has been autodetected for JMX exposure 
+2018-05-18 15:17:14.095 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'masterSource': registering with JMX server as MBean [com.zaxxer.hikari:name=masterSource,type=HikariDataSource] 
+2018-05-18 15:17:14.096 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'masterConfig': registering with JMX server as MBean [com.zaxxer.hikari:name=masterConfig,type=HikariConfig] 
+2018-05-18 15:17:14.137 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http) 
+2018-05-18 15:17:14.142 [main] INFO  com.lz.vip.Application - Started Application in 4.372 seconds (JVM running for 5.168) 
+2018-05-18 15:17:24.907 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet' 
+2018-05-18 15:17:24.908 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started 
+2018-05-18 15:17:24.929 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms 
+2018-05-18 15:17:29.714 [http-nio-8080-exec-2] INFO  com.lz.vip.service.AuthService - returnUrl: http://localhost:8080/oc_userinfo.html 
+2018-05-18 15:17:29.714 [http-nio-8080-exec-2] INFO  com.lz.vip.service.AuthService - authUrl: https://openauth.alipaydev.com/oauth2/publicAppAuthorize.htm?app_id=2016091100486742&scope=auth_ecard,auth_user&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Foc_userinfo.html 
+2018-05-18 16:29:22.087 [Thread-13] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7cbc3762: startup date [Fri May 18 15:17:10 CST 2018]; root of context hierarchy 
+2018-05-18 16:29:22.098 [Thread-13] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
+2018-05-18 16:29:22.099 [Thread-13] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans 
+2018-05-18 16:29:26.552 [Thread-13] INFO  com.zaxxer.hikari.pool.HikariPool - masterPool - Close initiated... 
+2018-05-18 16:29:26.561 [Thread-13] INFO  com.zaxxer.hikari.pool.HikariPool - masterPool - Closed. 

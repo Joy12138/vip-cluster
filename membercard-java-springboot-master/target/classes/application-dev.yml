@@ -1,0 +1,41 @@
+alipay:
+    config:
+        gateway : https://openapi.alipaydev.com/gateway.do
+        alipay_public_key: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDDI6d306Q8fIfCOaTXyiUeJHkrIvYISRcc73s3vF1ZT7XN8RNPwJxo8pWaJMmvyTn9N4HQ632qJBVHf8sxHi/fEsraprwCtzvzQETrNRwVxLO5jVmRGi60j8Ue1efIlzPXV9je9mkjzOmdssymZkh2QhUrCmZYI/FCEa3/cNMW0QIDAQAB
+        auth_gateway : https://openauth.alipaydev.com/oauth2/publicAppAuthorize.htm
+
+        
+#开发账号
+        pid : 18311315583
+        appid : 2016091100486742
+        private_key : MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCNXsYdzBJ6xBiPiNIqOogc/S6v6QkTSjTjuQawD9YNiDcV0MAqDp7NRsaTLvSA/BXMShHpwKz4u8rP0OupWV8pf0QYbdUbIccoqbqfPHBR7Esnd/gmEMB8MrGL5k2IQDqTUtse1hL46LSH4KY5ObUpFlmLxNovzJGHc4Spwopmhnw7s1FSLGsmZReKUH96zwWbdmujS9ubPp9wGYdz1bCz4hElvjYNF4996RR4x6W/KADpWc0w7M+fV5u6kGzgRV0Fw4gvz9fYGwPIkLJYqzOwnObDqXorG7uhkNtRkwpc7DAft2TAVQV/z6LqUQdUnXp/dUEXI9o6LxfH0pgVl+rrAgMBAAECggEALutQh50uWO5yVFkNn5RTjoN9Fkcaivtq+FV1YcOvwEgAOE5TKOI3VFv0Fe9UmOaReX7v2QvonJj/I9/sBwWxbr1dZVo2i023oshKNwVBJf9tpgjMJB4VNGNCx/LEsr7WcgTi0qYsH85j9GDb6kw70wom6BuKaqjTeAgf9JOriYEEvTD9Uur6YB5zM+M6ZikrUulGtoWwloPig5sU6yxArG2e5YYcCPfZVLVxhQBGlZM/TnWXFYEn/Rat9N1mL4cdkY8Ue035iSJLG+CBDWD+n5uRvrWx2NsW4ZW7KnRqpuqRvFoauO5sQcFBYeUa9ewVcKyocBd8UJBgC6kudfkLKQKBgQC+hxqklOtUIPVLJtogAbimZs8li3w8FSseohnFThj65DTb8tHxmGRz1hKQmuSa7vEcC7aMiKcWVu5OpWi0i6UcDFfgQ8NlDt4flFpVKzS5coqFIwMTAALLqjrpi0YuIhbnnKtS9s8AEl6R77Qppf5Bc1fg2yPH1cyNHFTWSNXCNQKBgQC98zy8jwUSy3k+3gCLW27imaojYwyWlpVVPV4V2YDsLbxN6c9s5SvKKxVHkOSKtw2VjddZnpVKw4BecrgVxSO7B1MUohJMu9iZmzxqFBNFkQiDqW/MIg8i66QuAlR5U3/jJzwNm8wJQyXGVaUJJZaabn7Wo6TgW+0fCWXjDAycnwKBgFafTjmtiyCAq4UzcNBEeBMPgvZq6FzYsvYGdPkDfM/0mSO2zkStKF6R4XblNTJLmEtL9/8E0hKSC16uTWBobPTHl9xacqerjsmExV0be6kkrl3BgVBOHPdDue0caRfoX8mFrU7W7130/BIVjS+yTFqtejK87xOX3Jv7WYbjLmxRAoGAfq0KYk2W+pPLxgtTnZxadLA58OOLb5n4+SG17yhgfCF8JRG6jUrAS1E0HcgZQhEV9Bjl9xR1R6jdoR8seQhB7ebSlz4GqjnUF4yZW70LpSc14GhM8Hv+UDGKCkzvfQIclaaCvCich8jKFlzjdRgmOdNar1XvDNkBZ+NimWpdts0CgYA1PFgeLNERRYL2vsFsvOm96n+qNUV17gJDdSE6vEFx5BUuJ3/+qxpa2XbxxeQSTWp1JVw+I7cUHXuJhZIiGVG5KhfQYij8hYIpUaZcl7+WfCzoVNnmVCROCMOqQMkxGxuxZsYiH3WBQflPU+Vdz1EY5yy5XXVa4BoeY/Y5ql/qlw==
+        
+    notify:
+        activity : http://127.0.0.1:8080/alipay/notify/gateway/activity.do
+
+server:
+    host:
+        url: http://localhost
+    port: 8080
+    context-path: /
+        
+spring:
+    freemarker:
+        suffix: .html
+
+    datasource:
+        type: com.zaxxer.hikari.HikariDataSource
+        username: root
+        password:
+        driverClassName: com.mysql.jdbc.Driver
+        url: jdbc:mysql://127.0.0.1:3306/vip_user?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true
+        hikari:
+          poolName: masterPool
+          dataSourceClassName: com.mysql.jdbc.jdbc2.optional.MysqlDataSource
+    jooq:
+      sql-dialect: mysql
+
+
+redis:
+    lz_vip: 127.0.0.1:6379
+

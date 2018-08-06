@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       ">
+
+    <bean id="masterConfig" class="com.zaxxer.hikari.HikariConfig">
+        <property name="poolName" value="masterPool"/>
+        <property name="dataSourceClassName" value="com.mysql.jdbc.jdbc2.optional.MysqlDataSource"/>
+        <property name="dataSourceProperties">
+            <props>
+                <prop key="url">${spring.datasource.url}</prop>
+                <prop key="user">${spring.datasource.username}</prop>
+                <prop key="password">${spring.datasource.password}</prop>
+                <prop key="cachePrepStmts">true</prop>
+                <prop key="prepStmtCacheSize">250</prop>
+                <prop key="prepStmtCacheSqlLimit">2048</prop>
+                <prop key="useServerPrepStmts">true</prop>
+                <prop key="useLocalSessionState">true</prop>
+                <prop key="useLocalTransactionState">true</prop>
+                <prop key="rewriteBatchedStatements">true</prop>
+                <prop key="cacheResultSetMetadata">true</prop>
+                <prop key="cacheServerConfiguration">true</prop>
+                <prop key="elideSetAutoCommits">true</prop>
+                <prop key="maintainTimeStats">false</prop>
+            </props>
+        </property>
+    </bean>
+
+    <bean id="masterSource" class="com.zaxxer.hikari.HikariDataSource" destroy-method="close">
+        <constructor-arg ref="masterConfig"/>
+    </bean>
+    <bean id="transactionManager"
+          class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="masterSource"/>
+    </bean>
+
+    <bean id="transactionTemplate" class="org.springframework.transaction.support.TransactionTemplate">
+        <property name="transactionManager" ref="transactionManager"/>
+    </bean>
+
+    <bean class="org.jooq.impl.DataSourceConnectionProvider" name="connectionProvider">
+        <constructor-arg ref="masterSource"/>
+    </bean>
+
+    <bean id="mapperProvider" class="com.lz.vip.dao.MapperProvider"/>
+    <bean class="org.jooq.impl.DefaultConfiguration" name="config">
+        <property name="SQLDialect">
+            <value type="org.jooq.SQLDialect">MYSQL</value>
+        </property>
+        <property name="connectionProvider" ref="connectionProvider"/>
+        <property name="recordMapperProvider" ref="mapperProvider"/>
+    </bean>
+
+    <bean id="dsl" class="org.jooq.impl.DefaultDSLContext">
+        <constructor-arg ref="config"/>
+    </bean>
+</beans>

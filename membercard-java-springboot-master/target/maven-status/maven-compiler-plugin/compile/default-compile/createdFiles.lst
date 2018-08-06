@@ -1,0 +1,15 @@
+com/lz/vip/entity/Trade.class
+com/lz/vip/Application.class
+com/lz/vip/entity/Coupon.class
+com/lz/vip/service/AuthService.class
+com/lz/vip/utils/RandomUtils.class
+com/lz/vip/service/ActivityService.class
+com/lz/vip/entity/MemberCard.class
+com/lz/vip/entity/CardTemplate.class
+com/lz/vip/config/AlipayConfig.class
+com/lz/vip/service/ShopService.class
+com/lz/vip/entity/Activity.class
+com/lz/vip/controller/OpenCardController.class
+com/lz/vip/enums/AuthScope.class
+com/lz/vip/service/MemberCardService.class
+com/lz/vip/service/PayService.class

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>请确认会员信息</title>
+    <script src="//cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
+    <!-- link href="http://v3.bootcss.com/dist/css/bootstrapValidator.css" rel="stylesheet" -->
+    <!-- link href="http://v3.bootcss.com/examples/theme/theme.css" rel="stylesheet" -->
+    <link href="http://v3.bootcss.com/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="http://v3.bootcss.com/dist/css/bootstrap-theme.css" rel="stylesheet">
+    
+	<script src="https://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="dist/js/bootstrapValidator.js"></script>
+ 	<script type="text/javascript">
+	    
+	    function onCheckBox(){
+	    	var checkBox = document.getElementById('checkBoxId');
+	    	if(checkBox.checked == true){
+	    		document.getElementById('submitButtonId').disabled = false;
+	    	}else{
+	    		document.getElementById('submitButtonId').disabled = true;
+	    	}
+	    }
+	    
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <section>
+                <div class="col-lg-8 ">
+                    <form class="form-horizontal" role="form" id="defaultForm" action="/ca_opencard.html" method="post">
+                    	<div class="panel panel-info">
+	                    	<div class="panel-heading">
+	        					<h4 class="panel-title">
+					        		<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">必填信息</a>
+				                </h4>
+	   						 </div>
+						       <div class="panel-body panel-collapse collapse in" id="collapseOne" >
+						        <label for="usernmae" class="col-sm-2 control-label">姓名</label> 
+							        <div class="col-sm-4">
+							        	<span class="add-on"><i class="icon-pencil"></i></span>
+								           <input type="text" class="form-control" name="username" value=""
+								              placeholder="请输入姓名" required />
+								           <!-- h6><p class="text-warning">* 姓名为敏感数据，需申请方可获取。此处以用户ID代替，申请开通后替换即可。</p><h6 -->
+							        </div>
+
+						        <label for="lastname" class="col-sm-2 control-label">手机号</label> 
+							        <div class="col-sm-4">
+								        <span class="add-on"><i class="icon-envelope"></i></span>
+								          <input type="text" class="form-control" name="mobile" value=""
+								              placeholder="请输入手机号" required />
+								          <!-- h6><p class="text-warning">* 手机号为敏感数据，需申请方可获取。此处以所在城市代替，申请开通后替换即可。</p></h6 -->
+							        </div>
+					      	   </div>
+					    </div>
+					    
+					    <div class="panel panel-success">
+					    	<div class="panel-heading">
+	        					<h4 class="panel-title">
+					        		<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">选填信息</a>
+				                </h4>
+	   						 </div>
+						    <div class="panel-body panel-collapse collapse in" id="collapseTwo" >
+					        <label for="usernmae" class="col-sm-2 control-label">身份证号</label> 
+						        <div class="col-sm-4">
+							        <span class="add-on"><i class="icon-envelope"></i></span>
+							           <input type="text" class="form-control" name="sID" value=""
+							              placeholder="请输入身份证号" length="18" />
+							           <h6><p class="text-warning">* 此处为选填信息，可根据开发者业务需求自行更换或者去掉。</p></h6>
+						        </div>
+					       </div>
+				       </div>
+				       
+				       <div class="form-group">
+				        <div class="col-sm-offset-2 col-sm-10">
+				           <div class="checkbox" >
+				            <label>
+				               <input type="checkbox" id="checkBoxId" onClick="onCheckBox()" > <p class="text-warning">以上信息我已确认</p>
+				             </label>
+				          </div>
+				         </div>
+				      </div>
+				       <div class="form-group">
+				         <div class="col-sm-offset-8 col-sm-10">
+				          <button class="btn btn-large btn-block btn-primary" id="submitButtonId" type="submit" disabled>开通会员卡并领券</button>
+				        </div>
+				      </div>
+				      <br>
+				     </form>
+                </div>
+            </section>
+            <!-- :form -->
+        </div>
+    </div>
+
+ <!-- <script type="text/javascript">
+ $(document).ready(function() {
+     // Generate a simple captcha
+     function randomNumber(min, max) {
+         return Math.floor(Math.random() * (max - min + 1) + min);
+     };
+     $('#captchaOperation').html([randomNumber(1, 100), '+', randomNumber(1, 200), '='].join(' '));
+ 
+     $('#defaultForm').bootstrapValidator({
+ //        live: 'disabled',
+         message: 'This value is not valid',
+         feedbackIcons: {
+             valid: 'glyphicon glyphicon-ok',
+             invalid: 'glyphicon glyphicon-remove',
+            validating: 'glyphicon glyphicon-refresh'
+         },
+         fields: {
+             username: {
+                 message: 'The username is not valid',
+                 validators: {
+                     notEmpty: {
+                         message: '姓名不能为空！'
+                     },
+                     stringLength: {
+                         min: 1,
+                         max: 30,
+                         message: '姓名长度需在1到30之间！'
+                     },
+                     regexp: {
+                         regexp: /^[a-zA-Z0-9_\.]+$/,
+                         message: '姓名只能包含字母、数字、点和下划线！'
+                     },
+                     different: {
+                         field: 'phone',
+                         message: '姓名不能与手机号相同！'
+                     }
+                 }
+             }，
+             mobile: {
+                 message: '手机号不合法',
+                 validators: {
+                     notEmpty: {
+                         message: '手机号不能为空！'
+                     },
+                     stringLength: {
+                         min: 13,
+                         max: 13,
+                         message: '手机号长度不合法！'
+                     },
+                     regexp: {
+                         regexp: /^[0-9]+$/,
+                         message: '手机号只能包含数字！'
+                     },
+                     different: {
+                         field: 'username',
+                         message: '手机号不能与姓名相同！'
+                     }
+                 }
+             }
+         }
+     });
+ 
+     // Validate the form manually
+     $('#validateBtn').click(function() {
+         $('#defaultForm').bootstrapValidator('validate');
+     });
+ 
+     $('#resetBtn').click(function() {
+         $('#defaultForm').data('bootstrapValidator').resetForm(true);
+     });
+ });
+ 
+ </script> -->
+ </body>
+ </html>
+ 
+ 

@@ -1,0 +1,12 @@
+com/lz/vip/jooq/tables/records/CouponRecord.class
+com/lz/vip/jooq/Tables.class
+com/lz/vip/jooq/tables/records/VipInfoRecord.class
+com/lz/vip/jooq/tables/VipInfo.class
+com/lz/vip/jooq/Keys$Identities0.class
+com/lz/vip/jooq/DefaultCatalog.class
+com/lz/vip/jooq/Keys.class
+com/lz/vip/jooq/tables/CardTemplate.class
+com/lz/vip/jooq/tables/Coupon.class
+com/lz/vip/jooq/VipUser.class
+com/lz/vip/jooq/Keys$UniqueKeys0.class
+com/lz/vip/jooq/tables/records/CardTemplateRecord.class

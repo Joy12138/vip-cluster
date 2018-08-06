@@ -1,0 +1,13 @@
+2018-05-17 00:10:50.800 [masterPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - masterPool - Thread starvation or clock leap detected (housekeeper delta=1h22s613ms). 
+2018-05-17 01:33:13.967 [masterPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - masterPool - Thread starvation or clock leap detected (housekeeper delta=1h23s77ms). 
+2018-05-17 03:17:37.586 [masterPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - masterPool - Thread starvation or clock leap detected (housekeeper delta=1h23s398ms). 
+2018-05-17 05:06:30.800 [masterPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - masterPool - Thread starvation or clock leap detected (housekeeper delta=1h22s988ms). 
+2018-05-17 05:27:30.388 [masterPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - masterPool - Retrograde clock change detected (housekeeper delta=29s510ms), soft-evicting connections from pool. 
+2018-05-17 06:56:23.559 [masterPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - masterPool - Thread starvation or clock leap detected (housekeeper delta=1h23s13ms). 
+2018-05-17 08:48:16.998 [masterPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - masterPool - Thread starvation or clock leap detected (housekeeper delta=1h23s232ms). 
+2018-05-17 11:51:17.119 [masterPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - masterPool - Retrograde clock change detected (housekeeper delta=29s313ms), soft-evicting connections from pool. 
+2018-05-17 13:22:39.702 [masterPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - masterPool - Thread starvation or clock leap detected (housekeeper delta=1h22s394ms). 
+2018-05-17 16:24:21.003 [masterPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - masterPool - Thread starvation or clock leap detected (housekeeper delta=8m39s864ms). 
+2018-05-17 19:54:23.226 [masterPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - masterPool - Retrograde clock change detected (housekeeper delta=29s839ms), soft-evicting connections from pool. 
+2018-05-17 21:37:14.311 [masterPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - masterPool - Thread starvation or clock leap detected (housekeeper delta=1h20s900ms). 
+2018-05-17 22:51:07.908 [masterPool housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - masterPool - Thread starvation or clock leap detected (housekeeper delta=1h23s463ms). 

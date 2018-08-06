@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/membercard-java-springboot-master/demo.iml" filepath="$PROJECT_DIR$/membercard-java-springboot-master/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vip-cluster.iml" filepath="$PROJECT_DIR$/vip-cluster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lz-vip-common/vip-common.iml" filepath="$PROJECT_DIR$/lz-vip-common/vip-common.iml" />
+    </modules>
+  </component>
+</project>
